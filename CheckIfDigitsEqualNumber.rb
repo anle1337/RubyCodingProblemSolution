@@ -23,6 +23,16 @@ def narcissistic?( value )
    sum == value ? true : false
 end
 
+# Test
+
+puts narcissistic?( 5 )
+puts "should return true"
+
+puts narcissistic?( 153 )
+puts "should return true"
+
+
+
 
 # The best answer :
 def narcissistic?( value )
